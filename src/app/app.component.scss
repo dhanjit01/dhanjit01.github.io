@@ -1,0 +1,38 @@
+.background-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    left:0;
+    right: 0;
+    z-index: -100;
+}
+.background-fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.title{
+    float: right;
+    margin-right: 3vw;
+    margin-top: 3vh;
+}
+
+.txt-big{
+    font-size: 6vw;
+    color: white;
+}
+
+.txt-med{
+    font-size: 2vw;
+    color: white;
+}
+
+.footer{
+    position: absolute;
+    right: 3vh;
+    top: 86vh;
+    color: white;
+}
